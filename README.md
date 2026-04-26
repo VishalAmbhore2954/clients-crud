@@ -16,23 +16,26 @@ composer install
 5. Create .env file : <br>
 cp .env.example .env
 
-6. create database first with : <br> 
+6. generate key : <br>
+php artisan key:generate
+
+7. create database first with : <br> 
 "create database your_database_name"  <br>
 & declare in .env file
 
-7. Configure database in .env : <br>
+8. Configure database in .env : <br>
 DB_DATABASE=your_database_name <br>
 DB_USERNAME=your_username  <br>
 DB_PASSWORD=your_password <br>
 
-8. Run migrations : <br>
+9. Run migrations : <br>
 php artisan migrate
 
-9. Run seeders : <br>
+10. Run seeders : <br>
 php artisan db:seed
 
-10. Start development server : <br>
+11. Start development server : <br>
 php artisan serve
 
-9. Visit site using : <br>
+12. Visit site using : <br>
 http://127.0.0.1:8000/clients
