@@ -8,10 +8,12 @@ git clone https://github.com/VishalAmbhore2954/clients-crud.git
 2. Navigate into project : <br>
 cd clients-crud
 
-3. Install dependencies : <br>
+2.1 Open this in any code editor eg. Vs Code
+
+4. Install dependencies : <br>
 composer install
 
-4. Create .env file : <br>
+5. Create .env file : <br>
 cp .env.example .env
 
 4.1 create database first with : <br> 
