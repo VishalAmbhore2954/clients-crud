@@ -1,0 +1,47 @@
+body {
+            background-color: #f5f7fb;
+        }
+
+        .form-card {
+            max-width: 800px;
+            margin: auto;
+            border-radius: 16px;
+        }
+
+        .card-header {
+            background: white;
+            border-bottom: 1px solid #eee;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .required {
+            color: red;
+        }
+
+        .btn-save {
+            border-radius: 8px;
+            padding: 10px 24px;
+        }
+
+        .btn-back {
+            border-radius: 8px;
+            padding: 10px 24px;
+        }
+
+        .text-danger {
+            font-size: 14px;
+            margin-top: 4px;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .card-header {
+                font-size: 18px;
+            }
+
+            .btn-save,
+            .btn-back {
+                width: 100%;
+            }
+        }
