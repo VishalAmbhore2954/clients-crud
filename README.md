@@ -2,7 +2,7 @@
 
 ## Setup Steps
 
-1. Clone the repository
+1. Clone the repository <br>
 git clone https://github.com/VishalAmbhore2954/clients-crud.git
 
 2. Navigate into project
