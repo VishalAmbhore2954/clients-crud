@@ -3,16 +3,18 @@
 ## Setup Steps
 
 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/VishalAmbhore2954/clients-crud.git
 
 2. Navigate into project
-cd <project-folder>
+cd clients-crud
 
 3. Install dependencies
 composer install
 
 4. Create .env file
 cp .env.example .env
+
+4.1 create database first with "create database your_database_name" & declare in .env file
 
 5. Configure database in .env
 DB_DATABASE=your_database_name
