@@ -26,7 +26,7 @@ class UpdateClientRequest extends FormRequest
         $clientId = $this->route('client')->id;
 
         return [
-            'name'   => 'required|string|max:255',
+            'name'   =>['required','string','max:255','regex:/^[A-Za-z\s]+$/'],
             'email'  => [
                 'required',
                 'email',
